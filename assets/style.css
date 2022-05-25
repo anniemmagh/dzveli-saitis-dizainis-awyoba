@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:#F2F2F2; ;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+.nav-item {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+color: #2F2E41;
+}
+.btn1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+    
+    width: 140px;
+    height: 51px;
+    
+    /* Primary[400] */
+    
+    background: #6C63FF;
+    /* Primary[400] */
+    
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+}
+.btn1:hover{
+    color: white;
+}
+.h1-1 {
+    width: 489px;
+height: 264px;
+
+/* H1 --desktop */
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 86px;
+line-height: 88px;
+/* or 102% */
+
+letter-spacing: -1px;
+
+/* Neutral[500] */
+
+color: #2F2E41;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.p-1 {
+    width: 489px;
+height: 102px;
+
+/* Body large */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+/* or 170% */
+
+
+/* Neutral[300] */
+
+color: #9893A3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.btn2 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+    
+    width: 140px;
+    height: 51px;
+    
+    /* Primary[400] */
+    
+    background: #6C63FF;
+    /* Primary[400] */
+    
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.btn2:hover{
+    color: white;
+}
+.image1 {
+    position: absolute;
+width: 640px;
+height: 559px;
+left: 642px;
+top: 100px;
+}
